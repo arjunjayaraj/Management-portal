@@ -1,0 +1,46 @@
+<div class="container">
+  <div class="header">
+    <mat-toolbar color="accent" class="toolbar">
+      <img routerLink="/" src="/assets/images/logo.png">
+     
+      <ul role="navigation" class="navigation-dashboard">
+        <li>
+          <a routerLink="dashboard" title="DashBoard.">
+            <span class="nav-link-inner">
+              DashBoard
+            </span>
+          </a>
+        </li>
+      </ul>
+    </mat-toolbar>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="footer">
+    <p>© k.arjunjayaraj@gmail.com 2020. All Rights Reserved. Privacy & Cookies Policy</p>
+  </div>
+</div>
+<!--
+<mat-toolbar color="accent" class="toolbar">
+  <a routerLink="/" class="nav-link home">Administrative portal</a>
+
+  <ul role="navigation" class="navigation-dashboard">
+    <li>
+      <a routerLink="dashboard" title="DashBoard.">
+        <span class="nav-link-inner">
+          DashBoard
+        </span>
+      </a>
+    </li>
+  </ul>
+</mat-toolbar>
+<router-outlet></router-outlet>
+<footer>
+  <md-toolbar class="md-scroll-shrink">
+    <div layout="row" layout-align="center center" flex>
+      FOOTER INFO
+    </div>
+  </md-toolbar>
+</footer>
+-->

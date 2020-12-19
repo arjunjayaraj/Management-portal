@@ -1,0 +1,27 @@
+.dashboard-cards {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    height: 150px;
+}
+
+.mat1 {
+    background-color: coral
+}
+
+.mat2 {
+    background-color: #e67e22;
+}
+
+.matText {
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
